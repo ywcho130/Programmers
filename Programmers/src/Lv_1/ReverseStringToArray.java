@@ -1,6 +1,5 @@
 package Lv_1;
 
-import java.util.Arrays;
 
 public class ReverseStringToArray {
     public int[] solution(long n) {
@@ -13,11 +12,6 @@ public class ReverseStringToArray {
         }
         return answer;
     }
-    public static void main(String[] args) {
-		ReverseStringToArray rsta = new ReverseStringToArray();
-		int []result = rsta.solution(12345);
-		System.out.println(Arrays.toString(result));
-		
-	}
+
 
 }
